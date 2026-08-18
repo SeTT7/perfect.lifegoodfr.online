@@ -258,7 +258,7 @@
   function initFinalPage() {
     var seen = new WeakSet();
     function appendQueryToCheckoutLinks() {
-      document.querySelectorAll('#step-23 a[href^="https://pay.mycheckoutt.com"]').forEach(function (a) {
+      document.querySelectorAll('#step-23 a[href^="https://go.centerpag.com/PPU38CQFESA"]').forEach(function (a) {
         if (seen.has(a)) return;
         seen.add(a);
         a.href = appendQuery(a.getAttribute('href'));
